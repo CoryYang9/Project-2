@@ -25,14 +25,14 @@ public class DemoDbSpringjdbcApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		
-		LocalDateTime d=LocalDateTime.now();
+		/*LocalDateTime d=LocalDateTime.now();
 		
 		String sql="INSERT INTO bookdate (LastName, FirstName, BookingDate) VALUES (?, ?, ?)";
 		int r=jdbcTemplate.update(sql, "abc1", "xyz1", d);
 		
 		if(r>0) {
 			System.out.println("one raw inserted");
-		}
+		}*/
 	}
 
 }
