@@ -6,9 +6,9 @@
 to check running 
 - get all data from database - http://localhost:8080/bookdate/getall
 
--get specified Id data - http://localhost:8080/bookdate/getall/id
+- get specified Id data - http://localhost:8080/bookdate/getall/id
                   
--post data (add data in table) - http://localhost:8080/bookdate/addbookdate
+- post data (add data in table) - http://localhost:8080/bookdate/addbookdate
                   
 - delete specific id data - http://localhost:8080/bookdate/deletebookdate/id
                   
